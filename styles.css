@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#container{
+	 width: 300px; /* You can adjust the width as needed */
+    padding: 20px;
+    border: 2px solid #333;
+    text-align: center;
+    border-radius: 20px;
+	background-color:grey;
+}
+.red, .green, .yellow {
+    display: inline-block;
+    width: 100px; /* You can adjust the size as needed */
+    height: 100px; /* Same size as width to create a circle */
+    border-radius: 50%; /* Makes the divs circular */
+    margin: 10px; /* Adjust the spacing between the circles */
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
